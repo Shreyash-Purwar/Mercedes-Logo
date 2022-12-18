@@ -1,0 +1,27 @@
+import turtle
+
+myPen = turtle.Turtle()
+myPen.shape("turtle")
+myPen.speed(5)
+
+myPen.color("#333333")
+
+myPen.circle(100)
+myPen.left(90)
+myPen.penup()
+myPen.forward(100)
+myPen.pendown()
+myPen.forward(100)
+myPen.penup()
+myPen.forward(-100)
+myPen.left(120)
+myPen.pendown()
+myPen.forward(100)
+myPen.penup()
+myPen.forward(-100)
+myPen.left(120)
+myPen.pendown()
+myPen.forward(100)
+myPen.penup()
+myPen.forward(-100)
+myPen.left(120)
